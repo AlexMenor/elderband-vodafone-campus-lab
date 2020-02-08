@@ -15,6 +15,11 @@ body {
   line-height: 1.6;
   height: 100vh;
   background: var(--background-color);
+  background: linear-gradient(
+    180deg,
+    var(--secondary-color),
+    var(--background-color) 100%
+  );
   color: var(--contrast-color);
   overflow: hidden;
 }
@@ -37,6 +42,7 @@ body {
 
 #brief h1 {
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 #brief-content {
@@ -47,6 +53,14 @@ body {
   height: 10em;
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+
+.zoom {
+  transition: all 300ms ease-out;
+}
+.zoom:hover {
+  transition: all 300ms ease-out;
+  transform: scale(1.05);
 }
 
 .logos {
@@ -97,7 +111,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 #navbar {
