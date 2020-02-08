@@ -49,6 +49,14 @@ body {
   text-align: center;
 }
 
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
 .video-container {
   min-width: 100vh;
   min-height: 100vh;
