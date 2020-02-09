@@ -234,4 +234,8 @@ section {
     height: 150px;
     width: 100px;
   }
+  .captura {
+    height: 150px;
+    width: 75px;
+  }
 }
