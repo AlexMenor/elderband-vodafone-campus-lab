@@ -89,13 +89,14 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
-.la-pulsera {
+.system {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin: 1em;
 }
-.la-pulsera div {
+.system div {
   width: 50%;
 }
 
@@ -190,6 +191,10 @@ section {
 
 #foto-pulsera {
   height: 250px;
+  width: 200px;
+}
+.captura {
+  height: 400px;
   width: 200px;
 }
 
