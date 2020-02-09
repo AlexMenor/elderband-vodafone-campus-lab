@@ -22,6 +22,7 @@ body {
   );
   color: var(--contrast-color);
   overflow: hidden;
+  text-align: center;
 }
 
 ::-webkit-scrollbar {
@@ -52,7 +53,6 @@ body {
   justify-content: center;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  text-align: center;
 }
 
 .zoom {
@@ -89,24 +89,34 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.la-pulsera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.la-pulsera div {
+  width: 50%;
+}
 
 .block {
   width: 50%;
   padding: 2em;
   margin: 1em;
   display: flex;
-  flex-direction: column;
-}
-
-.testimonial {
-  display: flex;
-  flex-direction: column;
-  margin: 2em;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .avatar {
   border-radius: 5em;
+}
+
+.block img {
+  max-width: 200px;
+  max-height: 400px;
+  border-radius: 1000px;
 }
 
 section {
@@ -178,6 +188,11 @@ section {
   padding: 3em;
 }
 
+#foto-pulsera {
+  height: 250px;
+  width: 200px;
+}
+
 @media (max-width: 500px) {
   #brief-content {
     background-color: rgba(0, 0, 0, 0);
@@ -196,5 +211,22 @@ section {
   #who-are-we-content h5 {
     margin-left: 2em;
     margin-right: 2em;
+  }
+  #ugr-logo {
+    width: 130px;
+    height: 50px;
+  }
+  #vodafone-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .block img {
+    max-width: 150px;
+    max-height: 300px;
+  }
+  #foto-pulsera {
+    height: 150px;
+    width: 100px;
   }
 }
