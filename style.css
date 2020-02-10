@@ -74,15 +74,6 @@ body {
   margin-bottom: 2em;
 }
 
-.video-container {
-  max-width: 110%;
-  max-height: 110%;
-  overflow: hidden;
-  position: absolute;
-  filter: blur(10px);
-  z-index: -3;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -203,6 +194,14 @@ section {
     background-color: rgba(0, 0, 0, 0);
   }
   #brief-content h3 {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  #brief-content h4 {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  #brief-content h5 {
     margin-left: 2em;
     margin-right: 2em;
   }
