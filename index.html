@@ -10,6 +10,7 @@
       rel="stylesheet"
       defer
     />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -27,35 +28,22 @@
       </div>
 
       <section id="brief">
-        <div id="brief-content" class="zoom">
-          <h1>Vuelve a conectar</h1>
+        <img src="assets/portada.png" id="portada" alt="Portada" />
+        <h2>Pulsera inteligente para mayores. Siéntelos más cerca.</h2>
+      </section>
+      <section id="what-do-we-want">
+        <div class="zoom">
+          <h1>Nuestro Propósito</h1>
+          <h2>
+            Nuestro equipo tiene como misión ayudar a paliar un grave e
+            importante problema entre las personas mayores: la soledad.
+          </h2>
           <h3>
-            Queremos paliar la soledad de las personas mayores con tecnología
-            del Siglo XXI
+            Combinando las mejores soluciones y tecnologías del siglo XXI y la
+            motivación por construir una mejor sociedad, trabajamos para
+            desarrollar una solución efectiva y sencilla que nos haga *volver a
+            conectar*
           </h3>
-          <h4>
-            Un teléfono hecho pulsera para recibir y establecer llamadas
-            mediante la voz
-          </h4>
-          <h5>
-            Sin guías telefónicas, sin complicaciones, sin esperas
-          </h5>
-          <div class="logos">
-            <img
-              src="assets/ugr.png"
-              alt="ugr-logo"
-              height="125px"
-              width="350px"
-              id="ugr-logo"
-            />
-            <img
-              src="https://vodafonecampuslab.aplygo.com/images/logo_vodafone.png"
-              alt="vcl-logo"
-              height="100px"
-              width="100px"
-              id="vodafone-logo"
-            />
-          </div>
         </div>
       </section>
       <section id="how-it-works">
@@ -93,6 +81,15 @@
               alerta en la App.
             </span>
           </div>
+          <div class="block zoom">
+            <img src="assets/conectividad.jpg" />
+            <h2>Conectividad</h2>
+            <span class="feature-explanation">
+              Un teléfono hecho pulsera para recibir y establecer llamadas
+              mediante la voz. Sin guías telefónicas, sin complicaciones, sin
+              esperas.
+            </span>
+          </div>
         </div>
       </section>
 
@@ -106,14 +103,49 @@
           />
           <div class="column zoom">
             <h2>La pulsera</h2>
-            <span
-              >Cuenta con múltiples sensores (pulsómetro, sensor de caída,
-              sensor de sudoración, ...) que nos permiten saber qué está
-              pasando.
+            <span>
+              ElderBand es una pulsera inteligente pensada por y para nuestros
+              mayores. Equipada con diferentes sensores, es capaz de:
             </span>
-            <h4>
-              Además cuenta con conectividad 4G.
-            </h4>
+            <div class="features-grid">
+              <div class="row-grid">
+                <div class="column">
+                  Analizar el estado anímico
+                  <img src="assets/happy-icon.png" alt="Ánimo" />
+                </div>
+                <div class="column">
+                  Detectar situaciones de emergencia
+                  <img src="assets/health-icon.png" alt="Emergencia" />
+                </div>
+                <div class="column">
+                  Recibir y realizar llamadas
+                  <img src="assets/call-icon.png" alt="Llamar" />
+                </div>
+                <div class="column">
+                  Controlar la actividad
+                  <img src="assets/activity-icon.png" alt="Actividad" />
+                </div>
+              </div>
+              <div class="row-grid">
+                <div class="column">
+                  Monitorizar el sueño
+                  <img src="assets/sleep-icon.png" alt="Dormir" />
+                </div>
+                <div class="column">
+                  Medir las pulsaciones
+                  <img src="assets/monitor-icon.png" alt="Pulsaciones" />
+                </div>
+                <div class="column">
+                  Contar pasos y calorías
+                  <img src="assets/foot-icon.png" alt="Pie" />
+                </div>
+                <div class="column">
+                  Mucho más
+
+                  <img src="assets/plus-icon.png" alt="Más" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="system">
@@ -130,10 +162,27 @@
           <div class="column zoom">
             <h2>La app</h2>
             <span>
-              Las familias pueden consultar fácilmente cómo se encuentran sus
-              seres queridos.
+              Descarga la App de ElderBand y sincronízala con la pulsera para
+              descubrir toda la información. Activa el aviso directo a los
+              servicios de emergencias y recibe alertas en el móvil ante
+              situaciones anormales con tu mayor.
             </span>
           </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div class="testimonial">
+          "Me encanta cuando me llaman y no tengo que ir corriendo a por el
+          teléfono"
+        </div>
+        <div class="testimonial">
+          "Es muy fácil de llevar y yo me siento segura por si me pasa algo, que
+          sino nadie se entera hasta el día siguiente"
+        </div>
+        <div class="testimonial">
+          "Mi hija dice que se queda más tranquila y a mi me gusta porque así
+          puedo llamar a mis amigas y todo aunque no me acuerde de los numeros"
         </div>
       </section>
 
@@ -141,20 +190,35 @@
         <div id="who-are-we-content" class="zoom">
           <h1>¿Quiénes somos?</h1>
           <h4>
-            Somos estudiantes de la Universidad de Granada y estamos
-            participando en la segunda edición de Vodafone Campus Lab.
+            Somos un grupo de emprendedores de la Universidad de Granada
+            concienciados con los problemas que enfrenta la sociedad,
+            especialmente la de edad avanzada.
           </h4>
           <h4>
-            Nuestro objetivo es definir una solución para paliar la soledad de
-            las personas mayores.
+            Queremos traer al presente la tecnología del futuro para ofrecer
+            soluciones que nos hagan volver a conectar
           </h4>
-          <h5>
-            Actualmente, tenemos que prototipar y validar nuestra solución.
-          </h5>
+          <div class="logos">
+            <img
+              src="assets/ugr.png"
+              alt="ugr-logo"
+              height="125px"
+              width="350px"
+              id="ugr-logo"
+            />
+            <img
+              src="https://vodafonecampuslab.aplygo.com/images/logo_vodafone.png"
+              alt="vcl-logo"
+              height="100px"
+              width="100px"
+              id="vodafone-logo"
+            />
+          </div>
         </div>
         <img
           src="https://pbs.twimg.com/media/EOLQuQeWsAM8giG.jpg:large"
           alt="El equipo"
+          id="el-equipo"
         />
       </section>
     </div>
