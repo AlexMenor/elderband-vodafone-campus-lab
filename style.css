@@ -45,6 +45,7 @@ body {
 }
 #brief {
   justify-content: flex-start;
+  min-height: 0vh;
 }
 
 #purpose > * {
