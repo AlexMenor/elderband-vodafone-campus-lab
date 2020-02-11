@@ -266,11 +266,35 @@ section {
     max-height: 300px;
   }
   #foto-pulsera {
-    height: 150px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
   }
   .captura {
     height: 150px;
     width: 75px;
+  }
+  .row-grid {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #purpose-content {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  #el-equipo-trabajando {
+    margin: 0;
+    margin-top: 1em;
+    width: 250px;
+    height: 175px;
+  }
+  .system {
+    flex-wrap: wrap-reverse;
+  }
+  #band-explain {
+    width: 100%;
   }
 }
